@@ -4,5 +4,5 @@
    <name>PS-Katalon</name>
    <tag></tag>
    <UUID>43da08f6-982c-4282-af6a-214bdb54dcc4</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>

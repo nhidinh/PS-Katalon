@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,Chrome 62.0.3202.62,,2017-11-09 13:32:18,2017-11-09 13:32:46,28.071s,ERROR
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Chrome 62.0.3202.62,Verify if users can login successful. \n\nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2017-11-09 13:32:18,2017-11-09 13:32:34,15.713s,PASSED
+comment,Chrome 62.0.3202.62,,2017-11-09 13:32:19,2017-11-09 13:32:19,0.061s,PASSED
+comment,Chrome 62.0.3202.62,,2017-11-09 13:32:19,2017-11-09 13:32:19,0.002s,PASSED
+openBrowser,Chrome 62.0.3202.62,,2017-11-09 13:32:19,2017-11-09 13:32:28,9.102s,PASSED
+click,Chrome 62.0.3202.62,,2017-11-09 13:32:28,2017-11-09 13:32:29,1.052s,PASSED
+setText,Chrome 62.0.3202.62,,2017-11-09 13:32:29,2017-11-09 13:32:29,0.253s,PASSED
+setText,Chrome 62.0.3202.62,,2017-11-09 13:32:29,2017-11-09 13:32:29,0.309s,PASSED
+comment,Chrome 62.0.3202.62,,2017-11-09 13:32:29,2017-11-09 13:32:29,0.001s,PASSED
+click,Chrome 62.0.3202.62,,2017-11-09 13:32:29,2017-11-09 13:32:31,1.836s,PASSED
+comment,Chrome 62.0.3202.62,,2017-11-09 13:32:31,2017-11-09 13:32:31,0.001s,PASSED
+"Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout)",Chrome 62.0.3202.62,,2017-11-09 13:32:31,2017-11-09 13:32:31,0.058s,PASSED
+closeBrowser,Chrome 62.0.3202.62,,2017-11-09 13:32:31,2017-11-09 13:32:34,2.391s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Chrome 62.0.3202.62,Verify if users can book an appointment sucessfully.\nPre-condition: Users have already logged in\n\nSteps:\n- Fill in appoinment's information\n- Click on appointment's button\n\nExpected results:\nAppointment Confirmation page is displayed,2017-11-09 13:32:34,2017-11-09 13:32:43,9.659s,ERROR
+comment,Chrome 62.0.3202.62,,2017-11-09 13:32:34,2017-11-09 13:32:34,0.010s,PASSED
+comment,Chrome 62.0.3202.62,,2017-11-09 13:32:34,2017-11-09 13:32:34,0.005s,PASSED
+openBrowser,Chrome 62.0.3202.62,,2017-11-09 13:32:34,2017-11-09 13:32:43,9.334s,PASSED
+callTestCase,Chrome 62.0.3202.62,,2017-11-09 13:32:43,2017-11-09 13:32:43,0.006s,PASSED

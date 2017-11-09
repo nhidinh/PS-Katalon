@@ -47,11 +47,11 @@ WebUI.selectOptionByValue(findTestObject('demoqa_registration/Page_Registration 
 
 WebUI.setText(findTestObject('demoqa_registration/Page_Registration  Demoqa/input_phone_9'), '01111456899')
 
-WebUI.setText(findTestObject('demoqa_registration/Page_Registration  Demoqa/input_username'), 'jenydinh')
+WebUI.setText(findTestObject('demoqa_registration/Page_Registration  Demoqa/input_username'), 'jeny')
 
 WebUI.click(findTestObject('demoqa_registration/Page_Registration  Demoqa/div_fieldset'))
 
-WebUI.setText(findTestObject('demoqa_registration/Page_Registration  Demoqa/input_e_mail'), 'humorcake@gmail.com')
+WebUI.setText(findTestObject('demoqa_registration/Page_Registration  Demoqa/input_e_mail'), 'testmail@mail.com')
 
 WebUI.setText(findTestObject('demoqa_registration/Page_Registration  Demoqa/textarea_description'), 'Tesst')
 
@@ -67,7 +67,6 @@ WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 
-
-WebUI.verifyImagePresent(findTestObject('Informacije o komp verifikacija/Page_Informacije o kompaniji/online prodaja, logo, gradovi saobracaj se obavlja/Page_Informacije o kompaniji/img_print_image_src'),
-	FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyImagePresent(findTestObject('Informacije o komp verifikacija/Page_Informacije o kompaniji/online prodaja, logo, gradovi saobracaj se obavlja/Page_Informacije o kompaniji/img_print_image_src'), 
+    FailureHandling.STOP_ON_FAILURE)
 
